@@ -1,0 +1,103 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:orientation="vertical" >
+    <include android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="20dp">
+
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        style ="@style/Card_Home"
+        android:id="@+id/moodle_card"
+        card_view:cardCornerRadius="5dp"
+        android:onClick="Open_moodle">
+        <TextView
+            style="@style/Card_Home_Title"
+            android:text="@string/Moodle_Title"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        style ="@style/Card_Home"
+        card_view:cardCornerRadius="5dp"
+        android:onClick="open_Webmail">
+        <TextView
+            style="@style/Card_Home_Title"
+            android:text="@string/Webmail_Title"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        style ="@style/Card_Home"
+        card_view:cardCornerRadius="5dp"
+        android:onClick="Open_Library">
+        <TextView
+            style="@style/Card_Home_Title"
+            android:text="@string/library"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        style ="@style/Card_Home"
+        card_view:cardCornerRadius="5dp"
+        android:onClick="Open_Buildings">
+        <TextView
+            style="@style/Card_Home_Title"
+            android:text="@string/Buildings_title"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        style ="@style/Card_Home"
+        card_view:cardCornerRadius="5dp"
+        android:onClick="Open_Registration">
+        <TextView
+            style="@style/Card_Home_Title"
+            android:text="@string/Registration_Title"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        style ="@style/Card_Home"
+        card_view:cardCornerRadius="5dp"
+        android:onClick="Open_StudentCard">
+        <TextView
+            style="@style/Card_Home_Title"
+            android:text="@string/Student_Card_Title"/>
+
+    </android.support.v7.widget.CardView>
+
+</GridLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,64 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LibraryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include android:id="@+id/toolbar"
+            layout="@layout/toolbar"/>
+
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            style ="@style/Card_Welcome"
+            card_view:cardCornerRadius="5dp">
+
+            <TextView
+                style="@style/Card_text_welcome_title" />
+            <TextView
+                style="@style/Card_text_welcome"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:background="@android:color/transparent"
+                android:text="Borrow"
+                android:textColor="@color/theme_accent_light"
+                android:onClick="Access_camera"
+                android:id="@+id/borrow_button"
+                />
+        </android.support.v7.widget.CardView>
+        <!-- TODO work on making the app receive data from the external app -->
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            style="@style/Card_book">
+
+            <ImageView
+                style="@style/Card_image_book"
+                android:id="@+id/bookimageMain"
+                />
+
+            <TextView
+                style="@style/Card_text_Book"
+                android:text="Title"
+                android:id="@+id/bookTitleTextView"/>
+
+            <Button
+                style="@style/Card_Button_Book"
+                android:onClick="Book_Activity"/>
+
+        </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

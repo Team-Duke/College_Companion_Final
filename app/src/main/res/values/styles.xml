@@ -1,0 +1,172 @@
+<resources>
+
+    <style name="CollegeMaterialTheme" parent="CollegeMaterialTheme.Base">
+
+    </style>
+
+    <style name="CollegeMaterialTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/theme_primary</item>
+        <item name="colorPrimaryDark">@color/theme_primary_dark</item>
+        <item name="colorAccent">@color/theme_accent</item>
+    </style>
+
+
+    <style name="Card_Button_login">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textColor">@color/theme_accent_light</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="Card_text_register_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:text">Would you like to register for a lesson?</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">top|start</item>
+    </style>
+
+
+    <style name="Card_Button_Resgister">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_gravity">bottom|end</item>
+        <item name="android:text">Would you like to register?</item>
+        <item name="android:textColor">@color/theme_accent_light</item>
+        <item name="android:background">@android:color/transparent</item>
+
+    </style>
+
+    <style name="Card_Welcome" >
+        <item name="android:layout_height"> 200dp </item>
+        <item name="android:layout_width">match_parent </item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+        <item name="android:layout_marginTop">6dp</item>
+    </style>
+
+    <style name="Card_text_welcome_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:text">Welcome</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">top|start</item>
+
+    </style>
+
+    <style name="Card_text_welcome">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">25dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:text">It seems you have no books out would you like to borrow one?</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">start</item>
+
+
+    </style>
+
+
+    <style name="Card_book" >
+        <item name="android:layout_height"> 100dp </item>
+        <item name="android:layout_width">match_parent </item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+
+    </style>
+
+    <style name="Card_image_book">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="Card_text_Book">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">3dp</item>
+
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center|top</item>
+
+    </style>
+
+    <style name="Card_Button_Book">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_gravity">bottom|end</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+
+        <item name="android:text">More</item>
+        <item name="android:textColor">@color/theme_accent_light</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+
+    <style name="Card_Home">
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+
+    <style name="Card_Home_Title">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">#9E9E9E</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">bottom|center</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="FullscreenTitle">
+        <item name="android:textSize">50sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">#2E2060</item>
+    </style>
+
+    <style name="FullscreenText">
+        <item name="android:textSize">20sp</item>
+
+    </style>
+
+    <!-- Backward-compatible version of ?android:attr/buttonBarStyle -->
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+
+    <!-- Backward-compatible version of ?android:attr/buttonBarButtonStyle -->
+    <style name="ButtonBarButton" />
+
+
+
+</resources>

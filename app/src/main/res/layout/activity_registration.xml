@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.teamduke.collegecompanion.RegistrationActivity"
+    android:orientation="vertical">
+    <include android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view = "http://schemas.android.com/apk/res-auto"
+        style="@style/Card_Welcome"
+        card_view:cardCornerRadius="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Student Registration"
+            android:textColor="#000"
+            android:textSize="25dp"
+            />
+
+        <TextView
+            style="@style/Card_text_register_text"
+            android:layout_marginLeft="10dp"/>
+
+        <Button
+            style="@style/Card_Button_Resgister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Access_camera"
+            android:layout_gravity="bottom|end"
+            android:text="@string/Registration"
+            />
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

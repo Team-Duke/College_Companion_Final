@@ -1,0 +1,54 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include android:id="@+id/toolbar"
+            layout="@layout/toolbar"/>
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="162dp"
+            android:layout_height="0dp"
+            android:text="Would you like to log in?"
+            android:layout_weight="1.39" />
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="0dp"
+            android:layout_marginLeft="20dp"
+            android:hint="Username"
+            android:id="@+id/editTextUserName"
+            android:layout_weight="1" />
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="0dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/editTextPassword"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:layout_weight="1" />
+
+        <Button
+            style="@style/Card_Button_login"
+            android:layout_width="98dp"
+            android:layout_height="0dp"
+            android:onClick="Log_in"
+            android:text="@string/button_login"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:elevation="2dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+</ScrollView>
+

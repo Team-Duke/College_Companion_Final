@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_primary_light">#1E88E5</color>
+    <color name="theme_primary">#2E2060</color>
+    <color name="theme_primary_dark">#231847</color>
+
+    <color name="theme_accent_light">#ff6e40</color>
+    <color name="theme_accent">#ff3d00</color>
+    <color name="theme_accent_dark">#dd2c00</color>
+
+    <color name="main_action_text">#fff</color>
+    <color name="main_action_bar">#1565C0</color>
+
+    <color name="title_text">#fff</color>
+    <color name="background_color">#fff</color>
+    <color name="control_highlighted">@color/theme_accent_light</color>
+    <color name="photo_tint">#7f101010</color>
+    <color name="black_overlay">#66000000</color>
+</resources>

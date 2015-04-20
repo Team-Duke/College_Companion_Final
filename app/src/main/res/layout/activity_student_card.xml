@@ -1,0 +1,125 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fullscreen_content"
+    tools:context="teamduke.collegecompanion.StudentCardActivity"
+    android:background="#1E88E5">
+
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="bottom|left"
+        android:src="@drawable/lincoln_college_logo"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lincoln_college_logo"
+        android:layout_gravity="right|top"
+        android:layout_marginRight="20dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:text="Student"
+        style="@style/FullscreenTitle"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="60dp"
+        android:text="2014/15"
+        style="@style/FullscreenTitle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        style="@style/FullscreenText"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="100dp"
+        android:layout_marginRight="30dp"
+        />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="aaaaaa aaaaaaa"
+        style="@style/FullscreenText"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="90dp"
+        android:textColor="#000"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DOB"
+        style="@style/FullscreenText"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="70dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:id="@+id/DOB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00/00/0000"
+        style="@style/FullscreenText"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="70dp"
+        android:layout_marginLeft="70dp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student ID"
+        style="@style/FullscreenText"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="50dp"/>
+
+    <TextView
+        android:id="@+id/studentNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="000000"
+        android:textColor="#000"
+        style="@style/FullscreenText"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="50dp"/>
+
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout android:id="@+id/fullscreen_content_controls" style="?metaButtonBarStyle"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay" android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+
+
+        </LinearLayout>
+    </FrameLayout>
+
+
+
+
+
+</FrameLayout>

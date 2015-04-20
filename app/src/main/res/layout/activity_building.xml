@@ -1,0 +1,155 @@
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".BuildingActivity">
+
+        <LinearLayout
+            android:id="@+id/container_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/toolbar" />
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                style ="@style/Card"
+                android:layout_marginTop="10dp"
+                card_view:cardCornerRadius="10dp">
+
+                <ImageView
+                    style="@style/CardPhoto"
+                    android:src="@drawable/abbey"/>
+                <TextView
+                    style="@style/CardText"
+                    android:text="@string/abbey_text"
+                    android:id="@+id/abbey_Building"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                style ="@style/Card"
+                card_view:cardCornerRadius="10dp">
+
+                <ImageView
+                    style="@style/CardPhoto"
+                    android:src="@drawable/bishops"
+                    />
+                <TextView
+                    style="@style/CardText"
+                    android:text="@string/bishops_text"
+                    android:id="@+id/Bishops_Building"/>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                style ="@style/Card"
+                card_view:cardCornerRadius="10dp">
+
+                <ImageView
+                    style="@style/CardPhoto"
+                    android:src="@drawable/cathedral"/>
+                <TextView
+                    style="@style/CardText"
+                    android:text="@string/cathedral_text"
+                    android:id="@+id/cathedral"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                style ="@style/Card"
+                card_view:cardCornerRadius="10dp">
+
+                <ImageView
+                    style="@style/CardPhoto"
+                    android:src="@drawable/deans"/>
+                <TextView
+                    style="@style/CardText"
+                    android:text="@string/deans_Text"
+                    android:id="@+id/Deans"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                style ="@style/Card"
+                card_view:cardCornerRadius="10dp">
+                <ImageView
+                    style="@style/CardPhoto"
+                    android:src="@drawable/gibney"/>
+                <TextView
+                    style="@style/CardText"
+                    android:text="@string/gibney_Text"
+                    android:id="@+id/Gibney"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                style ="@style/Card"
+                card_view:cardCornerRadius="10dp">
+                <ImageView
+                    style="@style/CardPhoto"
+                    android:src="@drawable/knights"/>
+                <TextView
+                    style="@style/CardText"
+                    android:text="@string/knights_Text"
+                    android:id="@+id/Knights"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                style ="@style/Card"
+                card_view:cardCornerRadius="10dp">
+                <ImageView
+                    style="@style/CardPhoto"
+                    android:src="@drawable/monks"/>
+                <TextView
+                    style="@style/CardText"
+                    android:text="@string/monks_Text"
+                    android:id="@+id/Monks"/>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                style ="@style/Card"
+                card_view:cardCornerRadius="10dp">
+
+                <ImageView
+                    style="@style/CardPhoto"
+                    android:src="@drawable/sessions"/>
+                <TextView
+                    style="@style/CardText"
+                    android:text="@string/sessions_Texts"
+                    android:id="@+id/sessions_Restaurant"/>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                style ="@style/Card"
+                card_view:cardCornerRadius="10dp">
+                <ImageView
+                    style="@style/CardPhoto"
+                    android:src="@drawable/temple"/>
+                <TextView
+                    style="@style/CardText"
+                    android:text="@string/temple_Text"
+                    android:id="@+id/Temple"/>
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
