@@ -42,27 +42,32 @@ public class BuildingActivity extends ActionBarActivity {
                 getDeans.setClass(this, DeansActivity.class);
                 break;
 
-            /*
+
 
             case R.id.Gibney:
-                setContentView(R.layout.activity_gibney);
+                Intent getGibney = new Intent();
+                getGibney.setClass(this, gibneyActivity.class);
                 break;
 
             case R.id.Knights:
-                setContentView(R.layout.activity_knights);
+                Intent getKnights = new Intent();
+                getKnights.setClass(this, KnightsActivity.class);
                 break;
 
             case R.id.Monks:
-                setContentView(R.layout.activity_monks);
+                Intent getMonks = new Intent();
+                getMonks.setClass(this, MonksActivity.class);
                 break;
 
             case R.id.sessions_Restaurant:
-                setContentView(R.layout.activity_sessions);
+                Intent getSessions = new Intent();
+                getSessions.setClass(this, SessionsActivity.class);
                 break;
 
             case R.id.Temple:
-                setContentView(R.layout.activity_temple);
-                break; */
+                Intent getTemple = new Intent();
+                getTemple.setClass(this, TempleActivity.class);
+                break;
 
         }
 

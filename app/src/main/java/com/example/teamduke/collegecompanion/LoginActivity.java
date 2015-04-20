@@ -31,6 +31,7 @@ public class LoginActivity extends ActionBarActivity {
         EditText username = (EditText) findViewById(R.id.editTextUserName);
         EditText password = (EditText) findViewById(R.id.editTextPassword);
 
+        Toast toast;
 
         if (username.getText().toString().equals("255051") && password.getText().toString().equals("password")) {
 
@@ -42,6 +43,8 @@ public class LoginActivity extends ActionBarActivity {
             data.edit().putString("username", username.getText().toString()).commit();
             startActivityForResult(getMainActivity, result);
 
+            toast = Toast.makeText(this, "Login success", Toast.LENGTH_SHORT);
+            toast.show();
 
         }
 
@@ -55,6 +58,9 @@ public class LoginActivity extends ActionBarActivity {
             data.edit().putString("username", username.getText().toString()).commit();
             startActivityForResult(getMainActivity, result);
 
+            toast = Toast.makeText(this, "Login success", Toast.LENGTH_SHORT);
+            toast.show();
+
 
         }
         if (username.getText().toString().equals("284133") && password.getText().toString().equals("password")) {
@@ -66,6 +72,9 @@ public class LoginActivity extends ActionBarActivity {
             SharedPreferences data = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
             data.edit().putString("username", username.getText().toString()).commit();
             startActivityForResult(getMainActivity, result);
+
+            toast = Toast.makeText(this, "Login success", Toast.LENGTH_SHORT);
+            toast.show();
 
 
         }
@@ -79,6 +88,9 @@ public class LoginActivity extends ActionBarActivity {
             data.edit().putString("username", username.getText().toString()).commit();
             startActivityForResult(getMainActivity, result);
 
+            toast = Toast.makeText(this, "Login success", Toast.LENGTH_SHORT);
+            toast.show();
+
 
         }
         if (username.getText().toString().equals("290959") && password.getText().toString().equals("password")) {
@@ -91,12 +103,17 @@ public class LoginActivity extends ActionBarActivity {
             data.edit().putString("username", username.getText().toString()).commit();
             startActivityForResult(getMainActivity, result);
 
-
-        } else
-
-        {
-            Toast toast = Toast.makeText(this, "Incorrect please try again", Toast.LENGTH_SHORT);
+            toast = Toast.makeText(this, "Login success", Toast.LENGTH_SHORT);
             toast.show();
+
+
+        }
+        else
+        {
+            if (!password.getText().toString().equals("password")) {
+                toast = Toast.makeText(this, "Incorrect please try again", Toast.LENGTH_SHORT);
+                toast.show();
+            }
 
         }
 
